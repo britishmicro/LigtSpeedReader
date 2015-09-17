@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LigtSpeedReaderLite", "LigtSpeedReaderLite\LigtSpeedReaderLite.csproj", "{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9AC391C-A6A3-44CB-81C7-11AE4DA50CB5}"
+	ProjectSection(SolutionItems) = preProject
+		WE-Markdown.css = WE-Markdown.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
