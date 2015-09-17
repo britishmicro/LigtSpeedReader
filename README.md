@@ -1,4 +1,4 @@
-# lightspeedreader
+# Light Speed Reader
 Visually Read text files quickly
 
 Sometimes you need to read text quickly, LightSpeedReader turns the text into speach and flashes the 
