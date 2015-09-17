@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightSpeedReader", "LigtSpeedReaderLite\LightSpeedReader.csproj", "{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightSpeedReader", "LightSpeedReader\LightSpeedReader.csproj", "{E4789FD6-0BC7-4D24-84DE-32F9F9FDA494}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9AC391C-A6A3-44CB-81C7-11AE4DA50CB5}"
 	ProjectSection(SolutionItems) = preProject
