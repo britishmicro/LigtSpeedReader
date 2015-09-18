@@ -33,7 +33,7 @@ namespace LigtSpeedReaderLite
         {
             if (container == null)
             {
-                throw new ArgumentNullException("container");
+                throw new ArgumentNullException(nameof(container));
             }
 
             container.Add(this);
@@ -47,7 +47,6 @@ namespace LigtSpeedReaderLite
         /// <param name="key">The key.</param>
         public void RegisterHotkey(KeyCategories keyCategory, Keys key)
         {
-            // TODO: Make this call a single parameter call with "Keys" as the param.
 
             if (_isHotkeySet)
             {
