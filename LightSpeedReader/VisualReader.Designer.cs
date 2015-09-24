@@ -49,7 +49,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -72,32 +72,34 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.304774F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96.69523F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 51F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
             this.tableLayoutPanel1.Controls.Add(this.textboxWordDisplay, 1, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.62264F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.37736F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.35065F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.64935F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1117, 211);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // textboxWordDisplay
             // 
+            this.textboxWordDisplay.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textboxWordDisplay.BackColor = System.Drawing.SystemColors.InfoText;
             this.textboxWordDisplay.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textboxWordDisplay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textboxWordDisplay.Enabled = false;
             this.textboxWordDisplay.Font = new System.Drawing.Font("Cambria", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textboxWordDisplay.ForeColor = System.Drawing.SystemColors.Window;
-            this.textboxWordDisplay.Location = new System.Drawing.Point(39, 76);
-            this.textboxWordDisplay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textboxWordDisplay.Location = new System.Drawing.Point(39, 80);
+            this.textboxWordDisplay.Margin = new System.Windows.Forms.Padding(4);
             this.textboxWordDisplay.Multiline = true;
             this.textboxWordDisplay.Name = "textboxWordDisplay";
-            this.textboxWordDisplay.Size = new System.Drawing.Size(1022, 102);
+            this.textboxWordDisplay.Size = new System.Drawing.Size(1021, 70);
             this.textboxWordDisplay.TabIndex = 1;
             this.textboxWordDisplay.TabStop = false;
             this.textboxWordDisplay.Text = "LightSpeedReader";
@@ -108,12 +110,12 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.9673519F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 99.03265F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 12F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
             this.tableLayoutPanel2.Controls.Add(this.panel1, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.textboxToSpeak, 1, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2.702703F));
@@ -126,7 +128,7 @@
             // 
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(14, 370);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1080, 27);
             this.panel1.TabIndex = 4;
@@ -153,11 +155,11 @@
             this.textboxToSpeak.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textboxToSpeak.HideSelection = false;
             this.textboxToSpeak.Location = new System.Drawing.Point(14, 13);
-            this.textboxToSpeak.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textboxToSpeak.Margin = new System.Windows.Forms.Padding(4);
             this.textboxToSpeak.Multiline = true;
             this.textboxToSpeak.Name = "textboxToSpeak";
             this.textboxToSpeak.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textboxToSpeak.Size = new System.Drawing.Size(1086, 349);
+            this.textboxToSpeak.Size = new System.Drawing.Size(1085, 349);
             this.textboxToSpeak.TabIndex = 0;
             this.textboxToSpeak.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textboxToSpeak_KeyUp);
             // 
@@ -168,8 +170,7 @@
             this.ClientSize = new System.Drawing.Size(1117, 617);
             this.Controls.Add(this.splitContainer1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MaximizeBox = false;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimizeBox = false;
             this.Name = "VisualReader";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

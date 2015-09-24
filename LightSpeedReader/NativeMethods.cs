@@ -54,7 +54,7 @@ namespace LigtSpeedReaderLite
         /// </summary>
         public const int WM_HOTKEY = 0x0312;
 
-        private const int UniqueHotkeyId = 100; //  ...has to be unqiue for the calling thread
+        private const int UniqueHotkeyId = 100; //  ...has to be unique for the calling thread
 
         /// <summary>
         /// Sets the foreground window.
